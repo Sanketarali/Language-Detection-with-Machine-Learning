@@ -20,3 +20,20 @@ import pandas as pd<br>
 import numpy as np<br>
 data = pd.read_csv('dataset.csv')<br>
 data.head()<br>
+
+![result](https://github.com/Sanketarali/Language-Detection-with-Machine-Learning/blob/main/1.png)<br>
+
+Now let’s have a look at all the languages present in this dataset:<br>
+
+data["language"].value_counts()<br>
+
+![result](https://github.com/Sanketarali/Language-Detection-with-Machine-Learning/blob/main/2.png)<br>
+
+# Language Detection Model
+
+![result](https://github.com/Sanketarali/Language-Detection-with-Machine-Learning/blob/main/3.png)<br>
+
+Now let’s use this model to detect the language of a text by taking a user input:<br>
+![result](https://github.com/Sanketarali/Language-Detection-with-Machine-Learning/blob/main/4.png)<br>
+
+So as you can see that the model performs well. One thing to note here is that this model can only detect the languages mentioned in the dataset.<br>
