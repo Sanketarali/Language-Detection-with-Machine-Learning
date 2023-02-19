@@ -33,7 +33,4 @@ data["language"].value_counts()<br>
 
 ![result](https://github.com/Sanketarali/Language-Detection-with-Machine-Learning/blob/main/3.png)<br>
 
-Now let’s use this model to detect the language of a text by taking a user input:<br>
-![result](https://github.com/Sanketarali/Language-Detection-with-Machine-Learning/blob/main/4.png)<br>
 
-So as you can see that the model performs well. One thing to note here is that this model can only detect the languages mentioned in the dataset.
