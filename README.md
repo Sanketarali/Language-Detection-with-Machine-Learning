@@ -1,7 +1,5 @@
 # Language-Detection-with-Machine-Learning
-This project aims to detect the language of a given text using machine learning techniques. The system is able to classify text into one of several languages, such as English, Spanish, French, German, Portuguese, and so on.
-
-The most important part of training a language detection model is data. The more data you have about every language, the more accurate your model will perform in real-time. The dataset that I am using is collected from Kaggle, which contains data about 22 popular languages and contains 1000 sentences in each of the languages, so it will be an appropriate dataset for training a language detection model with machine learning.
+The goal of this project is to build a machine learning model that can detect the language of a given text. The model is trained on a dataset of texts in different languages and is then used to predict the language of new texts.
 
 # Prerequisites
 <h3>To run this project, you will need the following:<br></h3>
